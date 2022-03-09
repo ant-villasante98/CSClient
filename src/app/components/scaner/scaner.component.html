@@ -1,0 +1,10 @@
+<button class="btn-scan-activar" (click)="scanActive?stopQuagga():initQuagga()">
+    {{scanActive? 'Desactivar Scaner':'Activar Scaner'}}
+</button>
+
+<button class="btn-detected-code {{scanActive?'':'off-detected-scaner'}}" (click)="onDetectedScaner()">
+    Detectar codigo
+</button>
+<div class="camera-scaner {{scanActive?'on-detected-scaner':'off-detected-scaner'}}" id="scaner-quagga">
+
+</div>

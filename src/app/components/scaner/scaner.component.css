@@ -1,0 +1,7 @@
+.off-detected-scaner,
+.camera-scaner {
+  visibility: hidden;
+}
+.on-detected-scaner {
+  visibility: visible;
+}
